@@ -1,7 +1,16 @@
+## 1.8.1
+
+Some basic maintenance releases!
+
+* Just seeing if this released!
+
 ## 1.8.0
 
 This is a feature release.
 
+* [PCP-1231] Hope this works!
+* [#172] Fixed download errors from remote server
+* [PCP-790] Added support for downloading multiple tasks
 * [PCP-780](https://tickets.puppetlabs.com/browse/PCP-780) Add `input_method: powershell` supporting
 named params in powershell scripts.
 
@@ -153,6 +162,13 @@ This version introduces new features and maintains compatibility with the
 * [BKR-960](https://tickets.puppetlabs.com/browse/BKR-960) Skip timesync for ciscoxr-64a
 * [PCP-605](https://tickets.puppetlabs.com/browse/PCP-605) Disable restart_host_run_puppet on Fedora
 * [PCP-549](https://tickets.puppetlabs.com/browse/PCP-549) Wait for other Puppet runs to finish
+
+## 1.2.10
+
+Premature releases!
+
+* Some random update!
+* Seeing if versions maintain sorted order!
 
 ## 1.2.3
 
