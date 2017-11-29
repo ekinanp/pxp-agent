@@ -2,6 +2,7 @@
 
 This is a feature release.
 
+* [PXP-190] TEST: Change made in 1.8.x
 * [PCP-780](https://tickets.puppetlabs.com/browse/PCP-780) Add `input_method: powershell` supporting
 named params in powershell scripts.
 
