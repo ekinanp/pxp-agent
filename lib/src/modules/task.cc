@@ -278,6 +278,7 @@ static std::tuple<bool, std::string> downloadTaskFile(const std::vector<std::str
         } catch (lth_curl::http_file_download_exception& e) {
             // Server-side error, do nothing here -- we want to try the next master-uri.
             LOG_WARNING("Downloading the task file from the master-uri '{1}' failed. Reason: {2}", master_uri, e.what());
+              LOG_WARNING("BLAH MESSAGE FOR TRANSLATION")
             std::get<1>(result) = e.what();
         } catch (lth_curl::http_request_exception& e) {
             // For http_curl_setup and http_file_operation exceptions
